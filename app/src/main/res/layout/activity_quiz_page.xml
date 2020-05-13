@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.unesco.smla.QuizPage">
+
+    <include
+        android:id="@+id/quiz_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/lesson1"
+                android:drawableTop="@drawable/calculator"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/maths"
+                android:textColor="@color/white"
+                android:layout_marginTop="0dp"
+                android:onClick="maths"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lesson2"
+                android:drawableTop="@drawable/english_receptionist"
+                android:onClick="english"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/eng"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lesson3"
+                android:drawableTop="@drawable/monitor"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/ict"
+                android:textColor="@color/white"
+                android:onClick="ict"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lesson4"
+                android:drawableTop="@drawable/engineer"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/tech"
+                android:textColor="@color/white"
+                android:onClick="tech"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lesson5"
+                android:drawableTop="@drawable/microscope"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/science"
+                android:textColor="@color/white"
+                android:onClick="science"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/lesson6"
+                android:drawableTop="@drawable/phe"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/phe"
+                android:textColor="@color/white"
+                android:onClick="phe"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

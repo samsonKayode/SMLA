@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">SMLA</string>
+    <string name="app_full">SCHOOL MEET THE LEARNERS APPROACH</string>
+    <string name="username">Username</string>
+    <string name="Password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_profile">New User Profile</string>
+    <string name="edit_profile">Edit User Profile</string>
+    <string name="exitApp">Exit</string>
+    <string name="loginLogoDesc">Login Logo</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="studentID">Student ID</string>
+    <string name="dob">Date of Birth</string>
+    <string name="registerButton">Register</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="browseImg">Take Picture</string>
+
+    <!-- Error Variables here-->
+
+
+    <string name="file_exported">File exported to SYNC folder</string>
+    <string name="export">Export</string>
+    <string name="error_exporting">Error exporting log file</string>
+
+    <string name="dialog_title_error">Error</string>
+    <string name="no_data_found">No Data Found In Library</string>
+    <string name="accessLesson">You have to access the lesson before attempting the quiz</string>
+    <string name="no_name_found">No result found...</string>
+    <string name="select_name">Enter a name to continue</string>
+    <string name="fill_in_blank_fields">Please fill in the blank fields</string>
+
+    <string name="access_denied">You are not allowed to access this feature</string>
+
+    <string name="confirmExit">Are you sure you want to exit</string>
+    <string name="exitTitle">Confirm Exit</string>
+
+    <string name="invalid_login">Invalid Login Details</string>
+    <string name="database_error">Database Error, Contact Admin</string>
+    <string name="profile_created">New profile has been created</string>
+
+    <string name="info">Information</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="library_hint">Search Content...</string>
+
+    <string name="desc">Description..</string>
+
+    <!-- Dashboard Menu and Strings -->
+
+    <string name="start">Start</string>
+
+    <string name="dashboard">Dashboards</string>
+    <string name="courses">Courses</string>
+    <string name="quiz">Quizzes</string>
+    <string name="achievements">Achievements</string>
+    <string name="library">Library</string>
+    <string name="library_content">Library Contents</string>
+    <string name="logs">Logs</string>
+    <string name="sync_data">Sync Data</string>
+    <string name="settings">Settings</string>
+    <string name="sync">Sync Data</string>
+    <string name="profiles">Profiles</string>
+    <string name="logout">Logout</string>
+    <string name="searchStudent">Find Student</string>
+
+    <string name="timeSpent">TIME SPENT</string>
+    <string name="quizPassed">QUIZZES</string>
+
+    <string name="lesson1">Lesson 1</string>
+    <string name="lesson2">Lesson 2</string>
+    <string name="lesson3">Lesson 3</string>
+    <string name="lesson4">Lesson 4</string>
+    <string name="lesson5">Lesson 5</string>
+    <string name="lesson6">Lesson 6</string>
+
+    <string name="history">Recently Viewed Lessons</string>
+    <string name="date">Date</string>
+    <string name="course">Course</string>
+    <string name="lesson">Lesson</string>
+    <string name="term">Term</string>
+    <string name="duration">Dur.</string>
+    <string name="activity">Activity</string>
+    <string name="fullname">Name</string>
+
+    <string name="ID">ID</string>
+
+    <!-- Settings page-->
+
+    <string name="defaultLanguage">Default Language</string>
+    <string name="server">Server Address</string>
+    <string name="score">Quiz Pass Score</string>
+    <string name="contentDirectory">Content Directory</string>
+    <string name="browseFolder">Browse Folder</string>
+    <string name="saveButton">Save</string>
+
+    <string name="selectFolderTitle">This is a directory</string>
+    <string name="selectFolder">Do you want to select this directory?</string>
+
+    <string name="dataSaved">Data has been saved</string>
+    <string name="errorRetrievingData">Error retrieving data</string>
+
+
+    <string name="updateButton">Update</string>
+
+    <string name="profileUpdated">User profile has been updated</string>
+    <string name="profileUpdatedError">Error updating user profile</string>
+    <string name="profileError">Error creating user profile</string>
+
+    <string name="unsavedLesson">You have not saved any lesson in this position</string>
+
+    <string name="courseType">Course Type</string>
+    <string name="formal">Formal JSS2</string>
+    <string name="nonformal">Non Formal Hausa</string>
+
+    <string name="nonformalc">Non Formal Courses</string>
+
+    <string name="literacy">LITERACY</string>
+    <string name="numeracy">NUMERACY</string>
+    <string name="lifeskill">LIFE SKILL</string>
+
+    <string name="maths">MATHEMATICS</string>
+    <string name="eng">ENGLISH</string>
+    <string name="ict">BASIC ICT</string>
+    <string name="science">BASIC SCIENCE</string>
+    <string name="tech">BASIC TECH</string>
+    <string name="phe">PHE</string>
+
+    <string name="term1">1st Term</string>
+    <string name="term2">2nd Term</string>
+    <string name="term3">3rd Term</string>
+
+    <string name="selectTerm">Select Term</string>
+    <string name="play">Play</string>
+    <string name="pin">Pin</string>
+
+    <string name="selectLesson">Please select a lesson to continue</string>
+    <string name="selectQuiz">Please select a quiz to continue</string>
+    <string name="empty">Empty</string>
+    <string name="startQuiz">Start Quiz</string>
+
+    <string name="dataNotSaved">Unable to save data</string>
+
+    <string name="selectPosition">Please select position to save lesson</string>
+    <string name="nowPlaying">Now Playing</string>
+
+    <string name="confirmExitLesson">Are you sure you are done with this lesson?</string>
+
+    <string name="confirmLessonQuiz">Are you sure want to go to quiz?</string>
+
+    <string name="confirmExitQuiz">You are not done with this quiz. Are you sure you want to exit?</string>
+
+    <string name="startDate">Start Date</string>
+    <string name="endDate">End Date</string>
+    <string name="others">Other Parameters (Subject, Lesson, Term)</string>
+    <string name="search">Search</string>
+    <string name="selectValidDates">Please select valid dates to continue</string>
+    <string name="sIDorName">Student ID or Student Last Name</string>
+
+    <string name="noRecord">No record found with searched parameters</string>
+    <string name="continueButton">Continue</string>
+
+    <string name="errorSaving">Error Saving Data</string>
+    <string name="correct">Correct Answer!!!</string>
+    <string name="wrong">Wrong Answer!!!</string>
+
+    <string name="qComplete">You have completed the quiz</string>
+    <string name="yourScore">Your Quiz Score- </string>
+    <string name="passingScore">Passing Score- </string>
+    <string name="done">Done</string>
+    <string name="youPassed">Congratulations You Passed!!!</string>
+    <string name="youFailed">Sorry, You Failed!!!</string>
+    <string name="quiz_result">Quiz Result</string>
+
+    <string name="selectOption">You have to select an option to continue</string>
+
+    <string name="noQuiz">No Quiz Available for this Lesson</string>
+
+    <string name="accessed_lessons">Learners Accessed Lessons</string>
+    <string name="completedQuizzes">Learners Completed Quizzes</string>
+    <string name="qscore">Score</string>
+
+    <string name="lessonsCompleted">LESSONS COMPLETED</string>
+    <string name="availableQuizzes">Avalable Quizzes- </string>
+    <string name="completed_quiz">Completed Quizzes- </string>
+    <string name="a_accessed_lessons">Accessed Lessons</string>
+
+    <string name="search_name">Learners Name</string>
+    <string name="incompleteStudy">Incomplete Study</string>
+
+    <string name="attempts">ATTEMPTS</string>
+    <string name="passed">PASSES</string>
+    <string name="fails">FAILS</string>
+    <string name="nfLesson">Non Formal Lessons</string>
+
+    <string name="searchResult">Search Result</string>
+
+    <string name="invalid_account_type">Invalid Account Type Selected</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="delete_profile">Are you sure you want to remove profile</string>
+    <string name="error_deleting_profile">Error deleting profile</string>
+    <string name="profile_removed">Profile has been deleted</string>
+    <string name="you_are_in">You are currently logged into this account</string>
+
+</resources>

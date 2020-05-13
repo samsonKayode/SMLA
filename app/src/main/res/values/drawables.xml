@@ -1,0 +1,18 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_dashboard" type="drawable">@drawable/ic_dashboard_black_24dp</item>
+    <item name="ic_menu_courses" type="drawable">@drawable/ic_library_books_black_24dp</item>
+    <item name="ic_menu_quiz" type="drawable">@drawable/ic_question_answer_black_24dp</item>
+    <item name="ic_menu_achievement" type="drawable">@drawable/ic_stars_black_24dp</item>
+    <item name="ic_menu_library" type="drawable">@drawable/ic_account_balance_black_24dp</item>
+    <item name="ic_menu_library2" type="drawable">@drawable/ic_account_balance_white_24dp</item>
+    <item name="ic_menu_logs" type="drawable">@drawable/ic_view_list_black_24dp</item>
+    <item name="ic_menu_settings" type="drawable">@drawable/ic_settings_black_24dp</item>
+    <item name="ic_menu_sync" type="drawable">@drawable/ic_backup_black_24dp</item>
+    <item name="ic_menu_logout" type="drawable">@drawable/ic_lock_black_24dp</item>
+
+    <item name="error_icon" type="drawable">@drawable/ic_error_black_24dp</item>
+    <item name="info_icon" type="drawable">@drawable/ic_info_black_24dp</item>
+    <item name="confirm_icon" type="drawable">@drawable/ic_textsms_black_24dp</item>
+    <item name="profile_icon" type="drawable">@drawable/ic_check_circle_white_24dp</item>
+
+</resources>

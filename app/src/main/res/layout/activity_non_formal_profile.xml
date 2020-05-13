@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        tools:context="com.unesco.smla.NewProfile">
+
+        <TextView
+            android:id="@+id/newProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+            android:drawableStart="@drawable/ic_account_circle_black_24dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="@string/new_profile"
+            />
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="212dp"
+            android:layout_height="149dp"
+            app:srcCompat="@drawable/noimage"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/takeImg"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/buttonColor"
+            android:drawableLeft="@drawable/ic_folder_white_24dp"
+            android:drawableStart="@drawable/ic_folder_white_24dp"
+            android:onClick="takeImgc"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/browseImg"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/new_studentID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            android:hint="@string/studentID" />
+
+        <EditText
+            android:id="@+id/new_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/firstname"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/new_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/lastname"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/new_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/username"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/new_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/Password"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/new_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="textPersonName"
+            android:onClick="loadDate"
+            android:longClickable="false"
+            android:selectAllOnFocus="false"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:hint="@string/dob" />
+
+        <Spinner
+            android:id="@+id/new_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+
+        <Spinner
+            android:id="@+id/new_atype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <Spinner
+            android:id="@+id/new_stype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:rowCount="2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonColor"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/ic_check_circle_white_24dp"
+                android:drawableStart="@drawable/ic_check_circle_white_24dp"
+                android:text="@string/registerButton"
+                android:padding="10dp"
+                android:onClick="registerProfile"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="left"
+                android:layout_column="0"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/buttonColor"
+                android:textColor="@color/white"
+                android:text="@string/cancelButton"
+                android:drawableLeft="@drawable/ic_cancel_white_24dp"
+                android:drawableStart="@drawable/ic_cancel_white_24dp"
+                android:padding="10dp"
+                android:onClick="goBack"
+                android:layout_column="1"
+                android:layout_gravity="right"/>
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

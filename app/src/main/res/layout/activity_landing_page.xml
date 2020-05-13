@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context="com.unesco.smla.LandingPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:text="@string/nonformal"
+                android:background="#FD6D4B"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:drawableTop="@drawable/ic_phonelink_off_white_24dp"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:onClick="goToNonFormal"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white">
+
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:text="@string/formal"
+                android:background="#FF5363"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:drawableTop="@drawable/ic_phonelink_white_24dp"
+                android:paddingTop="60dp"
+                android:paddingBottom="60dp"
+                android:onClick="goToFormal"/>
+        </TableRow>
+
+
+    </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

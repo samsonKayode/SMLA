@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.unesco.smla.NonFormalOption">
+
+    <include
+        android:id="@+id/nfo_bar"
+        layout="@layout/app_bar" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/lesson1"
+                android:drawableTop="@drawable/english_receptionist"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/literacy"
+                android:textColor="@color/white"
+                android:layout_marginTop="0dp"
+                android:onClick="literacy"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lesson2"
+                android:drawableTop="@drawable/calculator"
+                android:onClick="numeracy"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/numeracy"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lesson3"
+                android:drawableTop="@drawable/monitor"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:text="@string/lifeskill"
+                android:textColor="@color/white"
+                android:onClick="lifeskill"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+
+            </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

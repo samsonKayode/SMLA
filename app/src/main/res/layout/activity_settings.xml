@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.unesco.smla.Settings">
+
+    <include
+        android:id="@+id/settings_bar"
+        layout="@layout/app_bar" />
+
+    <Spinner
+        android:id="@+id/settingLanguage"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/score"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <EditText
+        android:id="@+id/server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/server"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/contentDirectory"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:editable="false"
+            android:focusable="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/browseFolder"
+            android:textColor="@color/white"
+            android:onClick="loadDirectory"
+            android:drawableLeft="@drawable/ic_folder_white_24dp"
+            android:background="@color/buttonColor"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/spc"
+            android:layout_height="3dp"
+            android:layout_width="7dp"
+            android:layout_toLeftOf="@+id/save_setting"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/save_setting"
+            android:background="@color/buttonColor"
+            android:textColor="@color/white"
+            android:text="@string/saveButton"
+            android:padding="20dp"
+            android:drawableLeft="@drawable/ic_check_circle_white_24dp"
+            android:onClick="saveSettings"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:id="@+id/reset_setting"
+            android:background="@color/buttonColor"
+            android:textColor="@color/white"
+            android:text="@string/cancelButton"
+            android:drawableLeft="@drawable/ic_cancel_white_24dp"
+            android:onClick="cancelSettings"
+            android:padding="20dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+    </ScrollView>
