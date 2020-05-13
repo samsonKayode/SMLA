@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2E74A9</color>
+    <color name="colorPrimaryDark">#005696</color>
+    <color name="colorAccent">#434A54</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="buttonColor">#2e74a9</color>
+    <color name="green">#75a24d</color>
+    <color name="grey">#CCC</color>
+
+    <color name="lesson1">#7faacc</color>
+    <color name="lesson2">#1F5B7F</color>
+    <color name="lesson3">#75A24D</color>
+    <color name="lesson4">#077655</color>
+    <color name="lesson5">#FF5363</color>
+    <color name="lesson6">#FD6D4B</color>
+    <color name="red">#FF0033</color>
+
+    <color name="darkbrown">#cc3300</color>
+    <color name="darkred"> #663333</color>
+</resources>

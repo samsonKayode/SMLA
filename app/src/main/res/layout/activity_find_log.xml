@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.unesco.smla.FindLog">
+
+    <include
+        android:id="@+id/find_log"
+        layout="@layout/app_bar"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/find_log">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <EditText
+                android:id="@+id/startDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:onClick="sloadDate"
+                android:longClickable="false"
+                android:selectAllOnFocus="false"
+                android:editable="false"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="@string/startDate"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/endDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:clickable="true"
+                android:focusable="false"
+                android:onClick="eloadDate"
+                android:longClickable="false"
+                android:selectAllOnFocus="false"
+                android:editable="false"
+                android:hint="@string/endDate"
+                android:layout_marginTop="30dp"/>
+
+            <EditText
+                android:id="@+id/studentID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/sIDorName"
+                android:layout_marginTop="30dp"/>
+
+            <EditText
+                android:id="@+id/others"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/others"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dp"
+                android:orientation="horizontal"
+                >
+
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:background="@color/buttonColor"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:drawableLeft="@drawable/ic_search_white_24dp"
+                    android:drawableStart="@drawable/ic_search_white_24dp"
+                    android:onClick="search"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/button20"
+                    android:onClick="cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancelButton"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:background="@color/buttonColor"
+                    android:drawableLeft="@drawable/ic_cancel_white_24dp"
+                    android:drawableStart="@drawable/ic_cancel_white_24dp"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

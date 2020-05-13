@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.unesco.smla.ViewLesson"
+    android:keepScreenOn="true">
+
+    <include
+        android:id="@+id/view_lesson_bar"
+        layout="@layout/app_bar" />
+
+    <Button
+        android:id="@+id/startQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="@string/startQuiz"
+        android:drawableLeft="@drawable/ic_question_answer_white_24dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="start_Quiz"
+        android:textColor="@color/white" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"/>
+
+    </LinearLayout>
+

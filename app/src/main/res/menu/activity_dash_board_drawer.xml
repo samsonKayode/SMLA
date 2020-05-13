@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/courses"
+            android:icon="@drawable/ic_menu_courses"
+            android:title="@string/courses" />
+        <item
+            android:id="@+id/quiz"
+            android:icon="@drawable/ic_menu_quiz"
+            android:title="@string/quiz" />
+        <item
+            android:id="@+id/achieve"
+            android:icon="@drawable/ic_menu_achievement"
+            android:title="@string/achievements" />
+
+        <item
+            android:id="@+id/library"
+            android:icon="@drawable/ic_menu_library"
+            android:title="@string/library" />
+
+        <item
+            android:id="@+id/log"
+            android:icon="@drawable/ic_menu_logs"
+            android:title="@string/logs" />
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/sync_data"
+            android:icon="@drawable/ic_menu_sync"
+            android:title="@string/sync" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/logout" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/baseline_supervised_user_circle_black_24"
+            android:title="@string/profiles" />
+    </group>
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.unesco.smla.LibraryContent">
+
+    <include
+    android:id="@+id/library_content_bar"
+    layout="@layout/app_bar" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/library_hint"
+        android:drawableLeft="@drawable/ic_search_black_24dp">
+
+
+    </EditText>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/libraryList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#b5b5b5"
+        android:dividerHeight="5dp"
+        android:focusable="true"
+        android:choiceMode="singleChoice"
+        android:listSelector="@drawable/list_selector"/>
+
+</LinearLayout>
